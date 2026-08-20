@@ -24,7 +24,8 @@ jobs:
 
     #CORRIGINDO O ERRO
     - name: Fix permissions for binaries
-        run: chmod +x ./node_modules/.bin/*
+        run: |
+          chmod +x ./node_modules/.bin/*
 
     - name: Run linter
         run: npm run lint
