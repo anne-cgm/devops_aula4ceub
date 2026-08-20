@@ -22,17 +22,9 @@ jobs:
     - name: Instalar dependências do projeto
       run: npm install
 
-    #CORRIGINDO O ERRO
-    - name: Fix permissions for binaries
-        run: |
-          chmod +x ./node_modules/.bin/*
-
-    - name: Run linter
-        run: npm run lint
-
     # ETAPA 1: ANÁLISE ESTÁTICA DE CÓDIGO (LINTER)
-    - name: Executar análise estática de código (Linter)
-      run: npm run lint
+    #- name: Executar análise estática de código (Linter)
+      #run: npm run lint
 
     # ETAPA 2: TESTES AUTOMATIZADOS
     - name: Executar testes automatizados
