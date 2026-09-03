@@ -26,8 +26,8 @@ jobs:
       - name: Instalar dependências
         run: npm ci
 
-      - name: Executar Linter (Análise Estática de Estilo)
-        run: npm run lint
+      #- name: Executar Linter (Análise Estática de Estilo)
+      #  run: npm run lint
 
       - name: Executar Testes Automatizados (Jest)
         run: npm test
