@@ -12,4 +12,4 @@ module.exports = {
 };
 
 //Simulação de vazamento de segredo
-const AWS_SECRET_KEY = "AKIAIOSFODNN7EXAMPLE1234567890abcdef";
+const api_key = "AKIAIOSFODNN7EXAMPLE1234567890abcdef";

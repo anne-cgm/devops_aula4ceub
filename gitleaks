@@ -1,0 +1,12 @@
+title = "Configuração Personalizada do Gitleaks"
+
+[[rules]]
+id = "generic-api-key"
+description = "Detecção de chaves de API e segredos genéricos"
+regex = '''(?i)(api[_-]?key|secret[_-]?key|auth[_-]?token)\s*[:=]\s*['"]?[a-zA-Z0-9_\-]{16,}['"]?'''
+keywords = [
+    "api_key",
+    "apikey",
+    "secret",
+    "token"
+]
