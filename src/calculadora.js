@@ -12,4 +12,4 @@ module.exports = {
 };
 
 //Simulação de vazamento de segredo
-const api_key = "AKIAIOSFODNN7EXAMPLE1234567890abcdef";
+api_key = "AKIAIOSFODNN7EXAMPLE1234567890abcdef";
